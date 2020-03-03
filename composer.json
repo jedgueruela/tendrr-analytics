@@ -1,0 +1,40 @@
+{
+    "name": "jedgueruela/tendrr-analytics",
+    "description": "Custom analytics charting for Tendrr",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "tendrr analytics"
+    ],
+    "support": {
+        "docs": "https://github.com/jedgueruela/tendrr-analytics/blob/master/README.md",
+        "issues": "https://github.com/jedgueruela/tendrr-analytics/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jed Gueruela",
+            "homepage": "https://cell5.co.uk"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "jedgueruela\\tendrranalytics\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Tendrr Analytics",
+        "handle": "tendrr-analytics",
+        "hasCpSettings": false,
+        "hasCpSection": true,
+        "changelogUrl": "https://raw.githubusercontent.com/jedgueruela/tendrr-analytics/master/CHANGELOG.md",
+        "class": "jedgueruela\\tendrranalytics\\TendrrAnalytics"
+    }
+}
